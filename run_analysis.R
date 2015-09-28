@@ -45,7 +45,7 @@ names(allLabel) <- "activity"
 ## Labels the dataset with descriptive variable names.
 names(allSubject) <- "subject"
 DataWanted <- cbind(allSubject,allLabel,DataWanted)
-write.table(DataWanted, "tidy_data.txt")
+write.table(DataWanted, "tidy_data.txt", row.names = FALSE, quote = FALSE)
 
 
 ## Stores output in result.txt under working directory with the average of each variable 
@@ -69,7 +69,7 @@ for (i in 1:subjectLen) {
   }
 }
 
-write.table(result, "data_output.txt")
+write.table(result, "data_output.txt", row.names = FALSE, quote = FALSE)
 
 
 
