@@ -1,8 +1,6 @@
 A code book that describes the variables, the data, and any transformations or work that I performed to clean up the data.
  
- 
- 
-Variables in run_analysis.R:
+    Variables in run_analysis.R:
 
 fileURL: the url to download the raw dataset for the project
 
@@ -42,7 +40,7 @@ result: matrix to store the average of each variable for each activity and each 
         
       
         
-Steps:
+  Steps:
 
 1. Retrieve data from raw file and create corresponding variables. 
  
