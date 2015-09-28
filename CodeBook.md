@@ -40,7 +40,7 @@ result: matrix to store the average of each variable for each activity and each 
         
       
         
-  Steps:
+     Steps:
 
 1. Retrieve data from raw file and create corresponding variables. 
  
