@@ -1,6 +1,7 @@
 A code book that describes the variables, the data, and any transformations or work that I performed to clean up the data.
 
 Variables in run_analysis.R:
+
 fileURL: the url to download the raw dataset for the project
 train: training set, from "UCI HAR Dataset/train/X_train.txt"
 trainLabel: training labels, from  "UCI HAR Dataset/train/y_train.txt"
